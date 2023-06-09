@@ -22,7 +22,6 @@ app.get('/', (req, res) => {
 });
 
 app.use('/api/v1/products', productRouter);
-app.use('')
 
 // middleware
 app.use(notFoundMiddleware);
